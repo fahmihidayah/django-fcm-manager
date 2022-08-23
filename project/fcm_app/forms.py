@@ -18,7 +18,6 @@ class FcmAppForm(ModelForm):
 
 class Notification(ModelForm):
 
-
     class Meta:
         model = models.Notification
         fields = ['fcm_app', 'title', 'message', 'link_url', 'image_url', 'action_url', 'additional_message']
